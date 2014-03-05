@@ -1,0 +1,30 @@
+body {
+  color: navy;
+  font-family: Arial, Helvetica, sans-serif;
+  background: url('../images/fond_spirale.gif');
+  background-repeat: repeat;
+  height: 30px;
+  background-size: 1380px;
+}
+
+h1,h2 { font-family: "Comic Sans MS", sans-serif; }
+
+h1 {
+  text-align: center;
+  background-color: navy;
+  color: white;
+} 
+
+div { margin-left: 50px; }
+
+a:link { color: red; }
+a:visited { color: maroon; }
+
+th { background-color: silver; }
+
+td { font-family: Arial, Helvetica, "Liberation Sans", FreeSans, sans-serif; }
+
+pre,tt {
+  font-family: "Courier New", Courier, "Liberation Mono", monospace;
+  color: blue;
+}
