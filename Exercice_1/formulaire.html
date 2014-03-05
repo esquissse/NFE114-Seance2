@@ -1,0 +1,38 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  </head>
+<body background="images/fond.jpg" text="blue">
+<H1>Formulaire de commande</H1>
+<p>
+	Merci d'indiquer vos coordonnées :<br> 
+  <form name="commander" method="post" action="#">
+    <label>Nom : </label>
+    <input type="text" name="nom_client" value=""><br> 
+    <label>Adresse :</label><br> 
+    <textarea cols="50" rows="10" name="adresse_client"></textarea><br> 
+    Je désire commander <input type="text" name="quantite_commande"> (indiquez la quantité) pièces de 
+    <select name="nationalite_piece">
+      <option value="">- Choisissez -</option>
+      <option value="1cent">1 cent</option>
+      <option value="2cent">2 cents</option>
+      <option value="5cent">5 cents</option>
+      <option value="10cent">10 cents</option>
+      <option value="20cent">20 cents</option>
+      <option value="50cent">50 cents</option>
+      <option value="1euro">1 euro</option>
+      <option value="2euro">2 euros</option>
+    </select> du pays <input type="text" name="pays_piece" value="">
+    <br>
+    <input type="submit">
+    <input type="reset">
+  </form>
+<center>
+  <p>
+    <a href="http://validator.w3.org/check?uri=referer"><img src="http://www.w3.org/Icons/valid-html401" alt="Valid HTML 4.01 Transitional" height="31" width="88"></a>
+  </p>
+</center>
+</body>
